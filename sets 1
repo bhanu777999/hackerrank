@@ -1,0 +1,7 @@
+n=int(input())
+a=[]
+for i in range(n):
+    country=input()
+    b=a.append(country)
+c=len(set(a))    
+print(c)
