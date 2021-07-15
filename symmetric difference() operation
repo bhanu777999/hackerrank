@@ -1,0 +1,11 @@
+n=int(input())
+n1=list(map(int,input().split()))
+b=int(input())
+b1=list(map(int,input().split()))
+a=set(n1)
+b=set(b1)
+c=a.intersection(b)
+d= a^b
+
+
+print(len(d),end=" ")
