@@ -1,0 +1,15 @@
+m=int(input())
+mi=list(map(int,input().split()))
+n=int(input())
+ni=list(map(int,input().split()))
+a=set(mi)
+b=set(ni)
+c=a.difference(b)
+d=b.difference(a)
+e=c.union(d)
+f=list(e)
+f.sort()
+for i in f:
+    print(i)
+
+
