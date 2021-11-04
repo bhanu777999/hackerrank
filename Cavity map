@@ -1,0 +1,10 @@
+n=int(input())
+a=[]
+for i in range(n):
+    b=input()
+    a.append(b)
+
+for j in a:
+    if "9" in j:
+        j=j.replace("9","x")
+    print(j)
