@@ -1,0 +1,6 @@
+arr=[0,1,2,4,6,5,3]
+arr.sort()
+a=len(arr)
+b=a//2+1
+print(arr[b-1])
+   
